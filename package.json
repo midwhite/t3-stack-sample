@@ -6,6 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "postinstall": "prisma generate",
+    "prettier:fix": "prettier --write src/",
+    "prettier": "prettier src/",
     "lint": "next lint",
     "start": "next start"
   },
